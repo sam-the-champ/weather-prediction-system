@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagos Weather Forecast</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lagos Weather Forecast</h1>
+        <form id="weatherForm">
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Get Forecast</button>
+        </form>
+        <div id="result" class="result">
+            <!-- The prediction will be displayed here -->
+        </div>
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

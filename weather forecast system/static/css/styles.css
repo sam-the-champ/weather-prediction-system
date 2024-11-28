@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px; /* Maximum width for the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-color: white; /* White background for the container */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Dark gray color for the heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Vertical layout for the form elements */
+}
+
+label {
+    margin-bottom: 10px; /* Space between label and input */
+    color: #555; /* Medium gray color for the label */
+}
+
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space between input and button */
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text color */
+    font-size: 16px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.result {
+    margin-top: 20px; /* Space above the result section */
+    padding: 15px;
+    border: 1px solid #007bff; /* Border around the result */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #e9f7ff; /* Light blue background for results */
+    color: #333; /* Dark text color */
+    text-align: center; /* Center align the text */
+}
